@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+body{
+    background-color: whitesmoke;
+    color: aliceblue;
+    font-family: Helvetica, sans-serif;
+}
+/*estilos generales*/
+#caja_principal{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cabeza{
+    padding: 5px;
+    text-align: center;
+}
+#fondobanner{
+    background-image: url("../images/banner3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#logo{
+    font-size: auto;
+    font-weight: bold;
+    font-family: "Dancing Script", cursive;
+
+    color: #FFD700;
+    text-shadow:
+    2px 2px 5px rgba(0,0,0,1),
+    0 0 15px rgba(0,0,0,0.9),
+    0 0 25px rgba(0,0,0,0.8);
+    text-align: center;
+    padding: 2px;
+    border-radius: 15px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.09);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    max-width: 225px;
+    height: auto;
+    position: absolute;
+    left: 52%;
+    top: 5%;
+}
+
+/*estilos del menu*/
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    background-color: #333;
+    width: 99%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 15px;
+} 
+.menu li{
+    display: flex;
+}
+.menu li:first-child{
+    margin-right: auto;
+}
+#minilogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    width: auto;
+    height: 100%;
+}
+ #minilogo img{
+    width: auto;
+    height: 100%;
+    max-width:600px ;
+    align-self: center;
+}
+#minilogo:hover{
+    background-color: #333;
+}
+.segmentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 4px;
+    text-decoration: none;
+    height: 100%;
+    width: auto;
+    align-self: center;
+    flex: 1;
+   margin-left: auto;
+}
+.segmentos:hover{
+    background-color: #111;
+}
+.segmentos a{
+    text-decoration: none;
+    color: white;
+    font-size: auto;
+}
+.segmentos a:hover{
+    color: gold;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+}

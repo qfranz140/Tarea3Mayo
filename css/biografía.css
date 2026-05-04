@@ -1,0 +1,51 @@
+section{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    padding: 20px;
+    width: 98%;
+    height: auto;
+}
+.biografia-contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: rgba(255,255,255,0.09);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.9);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 97%;
+    height: auto;
+}
+
+.biografia-foto{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 650px;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,1);
+    padding: 15px;
+}
+.biografia-foto img{
+    width: auto;
+    height: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+.biografia-texto{
+    flex: 1;
+    color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}

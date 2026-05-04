@@ -1,0 +1,78 @@
+section{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 98%;
+    height: auto;
+}
+.discografia_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    width: 97%;
+    height: auto;
+}
+.discos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: auto;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+.discos_txt{
+    display:flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    padding:1px;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    color: black;
+}
+.discos_foto{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+}
+.discos_foto img{
+    width: auto;
+    height: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,1);
+}
+.discos_foto video{
+    width: auto;
+    height: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,1);
+}
+form{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 98%;
+    height: auto;
+    color: black;
+    border: 2px solid rgba(12, 12, 12);
+    border-radius: 15px;
+    background: rgba(2, 42, 127, 0.09);
+
+}
+#tit{
+    background-color: transparent;
+    color: black;
+}

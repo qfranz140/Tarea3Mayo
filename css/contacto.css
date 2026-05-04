@@ -1,0 +1,64 @@
+section{
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 98%;
+    height: auto;
+}
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000;
+}
+#tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+/* Estilos para la tabla en presentaciones */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+table th:nth-child(1), table td:nth-child(1) {
+    width: 20%;
+}
+table th:nth-child(2), table td:nth-child(2) {
+    width: 25%;
+}
+table th:nth-child(3), table td:nth-child(3) {
+    width: 55%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: orangered;
+}
+a:hover{
+    color: orange;
+    text-decoration: none;
+}
+    
+
